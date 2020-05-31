@@ -1,3 +1,20 @@
+.stat-container{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and  (max-width:775px){
+  .stat-container{
+    width: 92%;
+  }
+}
+
+
+body{
+  background-color: #fbfbfb;
+}
+
 .App {
   text-align: center;
 }

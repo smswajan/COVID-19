@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+header h2{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Raleway';
+    color: rgb(29, 209, 161);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}

@@ -1,0 +1,28 @@
+
+
+  .country-section{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    display:grid;
+    justify-content:space-between;
+     grid-template-columns:2fr 1fr;
+     gap: 20px;
+  }
+  .country-section select{
+    padding-left: 15px;
+    border-color: #f1f1f1;
+    border-radius: 3px;
+
+    -webkit-font-smoothing: antialiased;
+
+
+  }
+  @media only screen and  (max-width:775px){
+    .country-section{
+      grid-template-columns: 1fr;
+    }
+    .country-section select{
+      padding-left: 0;
+      height: 40px;
+    }
+  }

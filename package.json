@@ -1,5 +1,6 @@
 {
   "name": "covid19",
+  "homepage":"https://covid-19.smswajan.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

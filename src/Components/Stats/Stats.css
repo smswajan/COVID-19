@@ -1,0 +1,79 @@
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 35px;
+    gap: 35px;
+}
+
+.stat-one{
+    border-left: 8px solid rgb(255, 209, 58);
+    border-top-color: rgb(255, 209, 58);
+    border-right-color: rgb(255, 209, 58);
+    border-bottom-color: rgb(255, 209, 58);
+}
+.stat-one h2{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+-webkit-font-smoothing: antialiased;
+color: rgb(255, 209, 58);
+}
+.stat-two {
+    border-left: 8px solid rgb(255, 107, 107);
+    border-top-color: rgb(255, 107, 107);
+    border-right-color: rgb(255, 107, 107);
+    border-bottom-color: rgb(255, 107, 107);
+}
+.stat-two h2{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+-webkit-font-smoothing: antialiased;
+color: rgb(255, 107, 107);
+}
+.stat-three {
+    border-left: 8px solid rgb(29, 209, 161);
+    border-top-color: rgb(29, 209, 161);
+    border-right-color: rgb(29, 209, 161);
+    border-bottom-color: rgb(29, 209, 161);
+}
+.stat-three h2{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+-webkit-font-smoothing: antialiased;
+color: rgb(29, 209, 161);
+}
+.single-stat {
+    box-shadow: 0 0 2px rgba(0,0,0,.08);
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+
+.single-stat h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.stats-wrapper{
+    width: 90%;
+    margin: 50px auto;
+}
+.stats{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 35px;
+  
+
+}
+h2, h3{
+    font-weight: normal;
+}
+@media only screen and  (max-width:775px){
+  .stats{
+    grid-template-columns: 1fr;
+  }
+}
